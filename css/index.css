@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* CADA NAVEGADOR VAI RENDERIZAR UMA MARGEM E UM ESPAÇAMENTO DIFERENTE. ENTÃO PRA FUNCIONAR EM TODOS OS NAVEGADORES 
+    RESETAMOS A MARGEM E O PADDING EM TODOS OS BROWSERS QUE FOR ABERTO O SITE */
+}
+
+
+body {
+    background-image: linear-gradient(to right top, #343333, #3d3436, #44343d, #473648, #433a55, #3e4361, #354c6b, #295573, #2c6279, #376f7d, #467b81, #588784);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+#cabecalho {
+    height: 5vh; width: 100vw;
+    background-color: black;
+    
+}
+
+.corPreto a:hover{
+    color: brown;
+}
+
+.corPreto a:hover{
+    color: rgb(165, 117, 117);
+}
+
+
+
+.corPreto a:active{
+    color: rgb(255, 145, 0);
+}
+
+
+.bg-modern-gradient , .corPreto{
+    background: linear-gradient(0deg, #1e3c72, #2a5298);
+}
+  
+
+.navbar-modern , .nav-link,
+  .navbar-modern , .navbar-brand , .corPreto {
+    color: #ffffff !important;
+}
+  
+
+.navbar-modern , .nav-link:hover , .navbar-brand:hover , .corPreto {
+    color: #ffcc00 !important;
+  }
+
+.card{
+    background-color: #7ca1ff!important;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+#pagina1{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex: 1;
+
+}
+
+.card:hover {
+    transform: scale(1.05);
+    transition: transform 0.5s ease;
+    box-shadow: 0 8px 20px rgba(209, 205, 205, 0.3);
+  }
+
+  .card {
+    transition: transform 0.2s ease-in; 
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    transition: transform 1s ease-out; 
+  }
+  
+
+
+
