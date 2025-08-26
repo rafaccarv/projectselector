@@ -1,0 +1,171 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto 1 - Display</title>
+    <link rel="stylesheet" href="../../framer/bootstrap-5.3.7-dist/css/bootstrap.min.css">
+
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            overflow-x: hidden;
+        }
+
+        a {
+            color: #0B3D91; 
+            text-decoration: none;
+        }
+
+        img {
+            width: 70%;
+        }
+
+        #logosiri {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            margin-top: 40px;
+        }
+
+        .navbar-custom {
+            background-color: #D32F2F; 
+        }
+
+        main section {
+            min-height: 90vh;
+            background-image: linear-gradient(to right top, #FFD700, #FFC107, #FFB300, #FFA000, #ff9100); 
+            color: #5090ff; 
+        }
+
+        footer {
+            background-color: #D32F2F;
+            color: white;
+            font-style: italic;
+        }
+
+        .col{
+            width: 100%;
+        }
+
+        .carousel-inner img {
+         max-height: 300px; /* ajuste conforme o design */
+            object-fit: cover;
+            width: 100%;
+        }
+
+
+        .card:hover {
+        transform: scale(1.05);
+        transition: transform 0.5s ease;
+        box-shadow: 0 8px 20px rgba(253, 0, 0, 0.3);
+                }
+
+         .card {
+            transition: transform 0.2s ease-in; 
+        }
+  
+        .card:hover {
+            transform: scale(1.05);
+            transition: transform 1s ease-out; 
+        }
+
+        .neon {
+            color:#fff;
+            text-align:center;
+            font:800 56px/1 "Montserrat", sans-serif;
+            letter-spacing:2px;
+            text-shadow:
+            0 0 5px #fff,
+            0 0 10px #fff,
+            0 0 20px #dfdb10,
+            0 0 40px #f0ec1c,
+            0 0 80px #d0ff00;
+            animation: flicker 2.5s infinite steps(1);
+        }
+
+        img{
+            box-shadow: 0 8px 20px rgb(253, 0, 0);
+        }
+
+    </style>
+</head>
+
+
+
+<body>
+
+<div class="d-flex flex-column vh-100 " style="height: 100vh;">
+
+    
+    <!-- Cabeçalho -->
+    <header style="height: 5%; width: 100%;">
+        <nav class="navbar navbar-expand-lg navbar-custom">
+            <div class="container-fluid">
+                <a class="navbar-brand text-white" href="#">Siri Cascudo</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link text-white active" aria-current="page" href="#">Em desenvolvimento</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+
+
+
+
+    <!-- Conteúdo -->
+    <main class="flex-fill" >
+
+
+
+        <section>
+            <div style="min-height: 90vh; background-color: rgb(133, 53, 53); display: flex; justify-content: center; align-items: center; flex-direction: column; ;">
+
+            <H1 class="neon" style="font-family: 'Times New Roman', Times, serif; margin-top: 2rem;">O QUE OFERECEMOS?</H1>
+            <hr style="width: 80%; border: 1px solid white; margin: 20px 0;">
+            <img style="height: 700px; width: auto;" src="cardapio.png" alt="cardapio">
+            <hr style="width: 60%; border: 1px solid white; margin: 20px 0;">
+            <p style="color: #e6ff74;">SE VOCÊ VEM PELO SITE, TODOS OS PRATOS/LANCHES SERÃO POR CONTA DA CASA!</p>
+
+            </div>
+        </section>
+    </main>
+
+
+
+
+
+
+
+
+    <!-- Rodapé -->
+    <footer class="footer  d-flex align-items-center justify-content-center" style="height: 5%;">
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+                <a class="nav-link text-white" aria-current="page" href="#">DEV TODOS DIREITOS RESERVADOS ®</a>
+            </li>
+        </ul>
+    </footer>
+
+
+</div>
+<script src="../../framer/bootstrap-5.3.7-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
